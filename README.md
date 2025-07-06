@@ -65,3 +65,15 @@ And connect
 	    <version>bb2850f</version>
 	</dependency>
 ``
+
+## Using
+
+``
+    static GoldPassword manager = new GoldPassword();
+
+    public static void main(String[] args) throws Exception {
+        manager.initialize();
+        manager.savePassword("example.com", "password123");
+        System.out.println(manager.viewPasswords());
+    }
+``
