@@ -1,5 +1,7 @@
 # GoldPassword engine
 
+[![](https://jitpack.io/v/PWManager/GoldPassword.svg)](https://jitpack.io/#PWManager/GoldPassword)
+
 # A tool for creating a password managers
 
 ## Connecting
