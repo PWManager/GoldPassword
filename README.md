@@ -24,7 +24,7 @@ And connect
 
 ``
 	dependencies {
-	        implementation 'com.github.PWManager:GoldPassword:1.0.0'
+	        implementation 'com.github.PWManager:GoldPassword:bb2850f'
 	}
 ``
 
@@ -44,7 +44,7 @@ And connect
 
 ``
 	dependencies {
-	        implementation("com.github.PWManager:GoldPassword:1.0.0")
+	        implementation("com.github.PWManager:GoldPassword:bb2850f")
 	}
 ``
 
@@ -65,6 +65,6 @@ And connect
 	<dependency>
 	    <groupId>com.github.PWManager</groupId>
 	    <artifactId>GoldPassword</artifactId>
-	    <version>1.0.0</version>
+	    <version>bb2850f</version>
 	</dependency>
 ``
