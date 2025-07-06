@@ -68,7 +68,9 @@ And connect
 
 ## Using
 
-``
+import org.pwmanager.goldpass.GoldPassword;
+
+public class Main {
     static GoldPassword manager = new GoldPassword();
 
     public static void main(String[] args) throws Exception {
@@ -76,4 +78,5 @@ And connect
         manager.savePassword("example.com", "password123");
         System.out.println(manager.viewPasswords());
     }
-``
+}
+
